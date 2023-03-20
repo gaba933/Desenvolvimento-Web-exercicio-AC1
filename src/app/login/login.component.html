@@ -1,0 +1,13 @@
+<form>
+    <div class="form-group">
+      <label for="usuario">usuario</label>
+      <input type="text" [(ngModel)]="usuario" name="usuario" id="usuario" class="form-control" placeholder="" aria-describedby="helpId">
+    </div>
+
+    <div class="form-group">
+        <label for="usuario">senha</label>
+      <input type="text" [(ngModel)]="senha" name="senha" id="senha" class="form-control" placeholder="" aria-describedby="helpId">
+    </div>
+
+    <button type="submit" class="btn btn-primary" (click)="verifica()">submit</button>
+</form>
